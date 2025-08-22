@@ -79,8 +79,8 @@ Transfinite Surface{s_w} = {D,A,I,L}; Recombine Surface{s_w};
 Transfinite Curve{lAB, lCD, lIJ, lKL} = NxCore;  // x-direction
 Transfinite Curve{lBC, lDA, lJK, lLI} = NyCore;  // y-direction
 
-// Radial grading: from outer boundary -> core, toward核心更密
-// 连接线方向分别为 A->I, B->J, C->K, D->L
+// Radial grading: from outer boundary -> core, toward
+// The directions of the connecting lines: A->I, B->J, C->K, D->L
 Transfinite Curve{mAI, mBJ, mCK, mDL} = NLayers Using Progression (1./rGrad);
 
 // ===== extrude to 3D (hexa) =====
