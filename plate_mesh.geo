@@ -14,7 +14,7 @@ NxCore = 80;    // divisions along core top/bottom & outer top/bottom (x-dir)
 NyCore = 80;    // divisions along core left/right  & outer left/right  (y-dir)
 
 NLayers = 8;    // layers from outer boundary -> core (one strip per side)
-rGrad   = 1.5;  // geometric grading toward core; 2.0 = 每进一层减半
+rGrad   = 1.5;  // geometric grading toward core; 
 
 Nz = 8;         // constant layers through thickness
 
